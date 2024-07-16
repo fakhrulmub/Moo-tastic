@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-image: url('cow-field.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+}
