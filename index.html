@@ -5,131 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoGreen with Cow</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .custom-container {
-            background-color: #e9ecef;
-            padding: 20px;
-            border-radius: 15px;
-        }
-        .todo-item {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background-color: #f8f9fa;
-        }
-        .input-group .form-control {
-            background-color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body onload="displayTodo()">
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">GoGreen with Cow</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">About MooGreen</a></li>
-                <li class="nav-item"><a class="nav-link" href="#eco-tips">Eco-Tips</a></li>
-                <li class="nav-item"><a class="nav-link" href="#adventures">Adventures</a></li>
-                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-                <li class="nav-item"><a class="nav-link" href="#shop">Shop</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">GoGreen with Cow</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sketches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Community</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <header class="jumbotron text-center py-5">
-        <h1 class="display-4">Welcome to GoGreen with Cow!</h1>
-        <p class="lead">Join MooGreen on hilarious eco-friendly adventures.</p>
-        <img src="images/moogreen-superhero.png" alt="MooGreen the Superhero Cow" class="img-fluid rounded">
+    <header class="bg-success text-white text-center py-5">
+        <h1>Welcome to GoGreen with Cow!</h1>
+        <p>Your guide to a greener, funnier world.</p>
     </header>
 
-    <section id="about" class="container py-5">
-        <h2>About MooGreen</h2>
-        <p>MooGreen is a quirky cow on a mission to save the planet. From recycling to planting trees, MooGreen is always finding fun and hilarious ways to go green.</p>
-        <img src="images/moogreen-planting.png" alt="MooGreen Planting Trees" class="img-fluid">
-    </section>
-
-    <section id="eco-tips" class="container py-5 bg-light">
-        <h2>Eco-Tips</h2>
-        <ul>
-            <li><strong>Moo Tip #1:</strong> Don’t be a litterbug, or I’ll moo at you until you pick it up!</li>
-            <li><strong>Moo Tip #2:</strong> Use reusable bags, because plastic is udderly terrible!</li>
-        </ul>
-    </section>
-
-    <section id="adventures" class="container py-5">
-        <h2>Adventures</h2>
-        <p>Follow MooGreen on wacky eco-friendly adventures around the world.</p>
+    <div class="container mt-5">
         <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/moogreen-adventure1.png" class="card-img-top" alt="Adventure 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Adventure 1</h5>
-                        <p class="card-text">MooGreen saves a forest by planting 100 trees!</p>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <img src="cow-mascot.jpg" alt="Cow Mascot" class="img-fluid rounded">
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="images/moogreen-adventure2.png" class="card-img-top" alt="Adventure 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Adventure 2</h5>
-                        <p class="card-text">MooGreen cleans up a beach, one moo at a time.</p>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <h2>Join the Fun!</h2>
+                <p>Follow our quirky cow mascot as it embarks on hilarious adventures to promote green living. Watch comedy sketches, read funny blog posts, and learn how to make a difference in a light-hearted way.</p>
+                <a href="#" class="btn btn-primary">Watch Sketches</a>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section id="blog" class="container py-5 bg-light">
-        <h2>Blog</h2>
-        <p>Read MooGreen's latest musings on all things green and funny.</p>
-    </section>
+    <footer class="bg-light text-center py-4 mt-5">
+        <p>&copy; 2024 GoGreen with Cow. All rights reserved.</p>
+    </footer>
 
-    <section id="gallery" class="container py-5">
-        <h2>Gallery</h2>
-        <p>Check out photos of MooGreen in action.</p>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="images/moogreen1.png" class="img-fluid rounded" alt="Gallery Image 1">
-            </div>
-            <div class="col-md-4">
-                <img src="images/moogreen2.png" class="img-fluid rounded" alt="Gallery Image 2">
-            </div>
-        </div>
-    </section>
-
-    <section id="shop" class="container py-5 bg-light">
-        <h2>Shop</h2>
-        <p>Get your MooGreen merch here! A portion of sales goes to environmental charities.</p>
-    </section>
-
-    <section id="contact" class="container py-5">
-        <h2>Contact</h2>
-        <p>Want to reach out to MooGreen? Drop a message below.</p>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Your name">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-    </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12pT67/JpzIs1E2N2/rZh5A2jI5FToJ50X/sm1vp0sIi+I" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
