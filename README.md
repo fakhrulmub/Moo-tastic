@@ -1,2 +1,1 @@
-# Moo-tastic
-Combine environmental awareness with comedy by following the adventures of a quirky, eco-friendly cow named “MooGreen.” MooGreen is on a mission to save the planet, one hilarious step at a time. The website will include funny stories, eco-tips, and activities all narrated by MooGreen.
+"GoGreen with Cow" is a fun, comedic website dedicated to promoting environmental awareness and sustainable living through the humorous adventures of a quirky cow mascot. The site combines comedy sketches, funny blog posts, and engaging interactive content to entertain and educate visitors about green living.
